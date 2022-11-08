@@ -1,0 +1,10 @@
+extends layout 
+
+block content
+  h1= title
+  form(action='/index' method='post')
+    p= 'User:'
+    input(type='text' name='user')
+    p= 'Message:'
+    input(type='text' name='text')
+    input(type='submit' value='Submit')

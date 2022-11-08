@@ -2,8 +2,12 @@
   "name": "mini-message-board",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": "16.17.1"
+  },
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "node ./bin/www",
+    "startdev": "nodemon ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
